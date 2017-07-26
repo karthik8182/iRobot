@@ -22,6 +22,7 @@ ${bSIGNIN}        xpath=//*[@id="gb_70"]
     log     ${name}
     run keyword if  '${name}'=='Sign in'    log    "PASS"
 
+[TC-003] - Test to close browser
     close browser
 
 *** Keywords ***
